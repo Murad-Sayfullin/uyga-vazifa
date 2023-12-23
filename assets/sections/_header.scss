@@ -1,0 +1,142 @@
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__link{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    align-items: center;
+    font-family: 'Comfortaa';
+
+    @include media (1200){
+        gap: 40px;
+    }
+
+    @include media (920){
+        gap: 20px;
+    }
+
+    @include media (990){
+        gap: 20px;
+    }
+
+    @include media (990){
+        gap: 30px;
+    }
+    
+    @include media (660){
+        display: none;
+    }
+}
+
+
+
+.link__header1{
+    @include media (1150){
+        margin-left: 20px;
+    }
+}
+
+.link__header3{
+    @include media (815){
+        display: none;
+    }
+}
+
+.link__header4{
+    @include media (975){
+        display: none;
+    }
+}
+
+.link__header5{
+    @include media (1150){
+        display: none;
+    }
+}
+
+.link__header6{
+    @include media (1200){
+        display: none;
+    }
+}
+
+
+.link__header1:hover{
+    color: $red-color;
+}
+
+.link__header2:hover{
+    color: $red-color;
+}
+
+.link__header3:hover{
+    color: $red-color;
+}
+
+.link__header4:hover{
+    color: $red-color;
+}
+
+.link__header5:hover{
+    color: $red-color;
+}
+
+.link__header6:hover{
+    color: $red-color;
+}
+
+
+.header__location{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    @include media (1050){
+        gap: 20px;
+    }
+
+    @include media (530){
+        display: none;
+    }
+}
+
+.header__loc{
+    display: flex;
+    gap: 20px;
+}
+
+.header__inf{
+    display: flex;
+}
+
+.header__number{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__profile{
+    margin-right: 10px;
+}
+
+.header__btn{
+    display: none;
+
+    @include media (1200){
+        display: block;
+    }
+}
+
+.header__right{
+    display: flex;
+}
